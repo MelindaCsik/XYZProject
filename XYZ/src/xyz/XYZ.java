@@ -21,6 +21,10 @@ public class XYZ {
     }
     public static void main(String[] args) {
         // TODO code application logic here
+<<<<<<< HEAD
+=======
+        amogus
+>>>>>>> b9e3b9a43e976a2110d2be713c7fa1aff377428c
     }
     
 }
