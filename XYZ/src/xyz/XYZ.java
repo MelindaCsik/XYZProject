@@ -5,6 +5,7 @@
  */
 package xyz;
 import static java.lang.Math.PI;
+import java.util.Scanner;
 /**
  *
  * @author user3
@@ -25,6 +26,19 @@ public class XYZ {
         return aossz;
     }
     public static void main(String[] args) {
+        
+        Scanner bill = new Scanner(System.in);
+        
+        System.out.println("Adja meg a henger sugarát:");
+        double sugar = bill.nextDouble();
+        System.out.println("Adja meg a henger magasságát:");
+        double magas = bill.nextDouble();
+        
+        System.out.println("A henger térfogata:" + hengerterfogat(sugar, magas));
+        
+        System.out.println("A henger felszíne:" + hengerfelszin(sugar, magas));
+        
+
        
     }
     
